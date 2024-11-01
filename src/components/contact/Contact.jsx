@@ -5,7 +5,7 @@ import { clear } from "@testing-library/user-event/dist/clear";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-16 px-4">
+    <section id="contact" className="px-4">
       <div className="text-center mb-8">
         <h5 className="text-sm text-gray-600 mb-2">Get In Touch</h5>
         <h2 className="text-3xl font-bold">Contact Me</h2>

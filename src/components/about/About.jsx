@@ -28,11 +28,14 @@ const about = () => {
           </article>
         </div>
         <p>
-          My name is Koffison Voumadi and I am currently pursuing my Bachelors
-          in Computer Science & Information Security. During my free time, I
-          like gaming, spending time with my friends and family, and improving
-          my skills. Outside of school, I tend to do freelancing in graphic
-          designing and video editing from time to time.
+          My name is Koffison Voumadi, and I recently graduated with a
+          Bachelor's in Computer Science & Information Security from John Jay
+          College. With hands-on experience as a Mobile and Web Developer, along
+          with intensive training in Full Stack Development and Cybersecurity, I
+          am eager to contribute to a company's growth. My diverse skillset
+          makes me adaptable across various roles.<br/>In my free time, I enjoy
+          gaming, spending time with family and friends, and improving my
+          skills. I also freelance in graphic design and video editing.
         </p>
       </div>
     </section>
