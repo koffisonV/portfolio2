@@ -28,7 +28,7 @@ const about = () => {
           </article>
         </div>
         <p className="font-mono">
-        My name is Koffison Voumadi, an IT professional with over 2 years of hands-on experience in mobile and web development, and specialized knowledge in full stack  development and cybersecurity. With my agile mindset and collaborative skills, I’m eager to contribute towards the implementation of organizational strategies and growth.
+        My name is Koffison Voumadi, a Software Engineer with over 2 years of hands-on experience in mobile and web development, and specialized knowledge in full stack  development and cybersecurity. With my agile mindset and collaborative skills, I’m eager to contribute towards the implementation of organizational strategies and growth.
 
 I have a bachelor’s of science in computer science from John Jay College and possess a professional certificate in agile IT project management (LinkedIn Learning).
 
