@@ -1,14 +1,14 @@
 import React from "react";
+import Projects from "./Projects.jsx";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
 
 import "./Experience.css";
 // IMAGES
@@ -26,79 +26,80 @@ import IMG10 from "../../assets/img10.png";
 import "../../index.js";
 
 // ============== SLIDES ARRAY ================
-const data = [
+const frontend = [
   {
-    imgSrc: IMG1,
-    altText: "HTML",
-    title: "HTML | CSS | JS",
-    description: "Intermediate",
+    id: 1,
+    imgSrc: IMG3,
+    altText: "React",
+    title: "React",
+    description: "React & React Native",
   },
   {
     id: 2,
-    imgSrc: IMG3,
-    altText: "React",
-    title: "React Js",
-    description: "Intermediate",
+    imgSrc: IMG1,
+    altText: "HTML",
+    title: "HTML | CSS | JS",
+    description: "Programming",
   },
   {
     id: 3,
     imgSrc: IMG7,
     altText: "WordPress",
     title: "WordPress",
-    description: "Intermediate",
+    description: "Wordpress Dashboard & Plugins",
   },
   {
     id: 4,
     imgSrc: IMG8,
     altText: "Tailwind",
     title: "Tailwind",
-    description: "Intermediate",
+    description: "CSS Framework",
   },
 ];
 
-const data2 = [
+const backend = [
   {
     id: 1,
-    imgSrc: IMG2,
-    altText: "MySQL",
-    title: "MySQL | Php",
-    description: "Intermediate",
+    imgSrc: IMG6,
+    altText: "AWS",
+    title: "Amazon Web Services",
+    description: "DynamoDB, S3, EC2, Amplify, IAM, CloudWatch",
   },
   {
     id: 2,
-    imgSrc: IMG4,
-    altText: "Python",
-    title: "Python",
-    description: "Intermediate",
+    imgSrc: IMG2,
+    altText: "MySQL",
+    title: "MySQL | Php",
+    description: "Databases",
   },
   {
     id: 3,
-    imgSrc: IMG6,
-    altText: "AWS",
-    title: "AWS",
-    description: "Intermediate",
+    imgSrc: IMG9,
+    altText: "PostgreSQL",
+    title: "PostgreSQL",
+    description: "Databases",
   },
   {
     id: 4,
     imgSrc: IMG5,
     altText: "Git",
     title: "Git",
-    description: "Intermediate",
+    description: "Version Control",
   },
   {
     id: 5,
-    imgSrc: IMG9,
-    altText: "PostgreSQL",
-    title: "PostgreSQL",
-    description: "Intermediate",
-  },
-  {
-    id: 6,
     imgSrc: IMG10,
     altText: "ExpressJS",
     title: "ExpressJS",
-    description: "Intermediate",
+    description: "Server",
   },
+  {
+    id: 6,
+    imgSrc: IMG4,
+    altText: "Python",
+    title: "Python",
+    description: "Programing",
+  }
 ];
 
 const Experience = () => {
@@ -106,8 +107,10 @@ const Experience = () => {
     <section id="experience">
       <h5>More about</h5>
       <h2 className=" text-3xl">My experiences</h2>
+      <p className="text-center text-4xl font-light pb-2">Projects</p>
+      <Projects />
       {/* ===================FRONTEND============== */}
-      <h3>Frontend Development</h3>
+      <h3 className="py-3">Tools & Frameworks</h3>
       <Swiper
         className="container experience__container"
         modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -119,20 +122,20 @@ const Experience = () => {
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >
-        {data.map(({ imgSrc, title, description }, index) => {
+        {frontend.map(({ imgSrc, title, description }, index) => {
           return (
             <SwiperSlide className="experience" key={index}>
               <div className="experience__icon">
                 <img src={imgSrc} alt="" />
               </div>
               <h5 className="skill__name">{title}</h5>
-              {/* <small className="skill__level">{description}</small> */}
+              <small className="skill__level">{description}</small>
             </SwiperSlide>
           );
         })}
       </Swiper>
       {/* ===================BACKEND============== */}
-      <h3 className=" pt-5">Backend Development</h3>
+      <h3 className="py-3">Backend Development</h3>
       <br />
       <Swiper
         className="container experience__container"
@@ -144,14 +147,14 @@ const Experience = () => {
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >
-        {data2.map(({ imgSrc, title, description }, index) => {
+        {backend.map(({ imgSrc, title, description }, index) => {
           return (
             <SwiperSlide className="experience" key={index}>
               <div className="experience__icon">
                 <img src={imgSrc} alt="" />
               </div>
               <h5 className="skill__name">{title}</h5>
-              {/* <small className="skill__level">{description}</small> */}
+              <small className="skill__level">{description}</small>
             </SwiperSlide>
           );
         })}
