@@ -1,42 +1,61 @@
 import React from "react";
-import "./About.css";
 import { IoMdSchool } from "react-icons/io";
 import { FaGamepad } from "react-icons/fa";
 import { MdWork } from "react-icons/md";
 
-const about = () => {
+const About = () => {
   return (
     <section id="about">
       <h5>Get To Know</h5>
       <h2>About Me</h2>
-      <div className="container about__container">
-        <div className="about__cards">
-          <article className="about__card">
-            <IoMdSchool className="about__icon" />
-            <h5>College</h5>
-            <small>Bachelors</small>
+      <div className="container mx-auto gap-0 md:grid-cols-[50%]">
+        <div className="grid grid-cols-3 gap-6 max-md:grid-cols-2 max-md:gap-4">
+          <article
+            className="bg-[var(--color-bg-variant)] border border-transparent rounded-2xl p-8 text-center 
+            hover:bg-transparent hover:border-[var(--color-primary-variant)] hover:transition-all hover:cursor-default"
+          >
+            <IoMdSchool className="text-[var(--color-primary)] text-[1.4rem] mb-4" />
+            <h5 className="text-[0.95rem]">College</h5>
+            <small className="text-[0.7rem] text-[var(--color-light)]">
+              Bachelors
+            </small>
           </article>
-          <article className="about__card">
-            <FaGamepad className="about__icon" />
-            <h5>Gaming</h5>
-            <small>Console</small>
+          <article
+            className="bg-[var(--color-bg-variant)] border border-transparent rounded-2xl p-8 text-center 
+            hover:bg-transparent hover:border-[var(--color-primary-variant)] hover:transition-all hover:cursor-default"
+          >
+            <FaGamepad className="text-[var(--color-primary)] text-[1.4rem] mb-4" />
+            <h5 className="text-[0.95rem]">Gaming</h5>
+            <small className="text-[0.7rem] text-[var(--color-light)]">
+              Console
+            </small>
           </article>
-          <article className="about__card">
-            <MdWork className="about__icon" />
-            <h5>Work</h5>
-            <small>Freelance</small>
+          <article
+            className="bg-[var(--color-bg-variant)] border border-transparent rounded-2xl p-8 text-center 
+            hover:bg-transparent hover:border-[var(--color-primary-variant)] hover:transition-all hover:cursor-default"
+          >
+            <MdWork className="text-[var(--color-primary)] text-[1.4rem] mb-4" />
+            <h5 className="text-[0.95rem]">Work</h5>
+            <small className="text-[0.7rem] text-[var(--color-light)]">
+              Freelance
+            </small>
           </article>
         </div>
-        <p className="font-mono">
-        My name is Koffison Voumadi, a Software Engineer with over 2 years of hands-on experience in mobile and web development, and specialized knowledge in full stack  development and cybersecurity. With my agile mindset and collaborative skills, I’m eager to contribute towards the implementation of organizational strategies and growth.
-
-I have a bachelor’s of science in computer science from John Jay College and possess a professional certificate in agile IT project management (LinkedIn Learning).
-
-During my free time, I freelance in graphic design and video editing, enjoy gaming and spending time with my loved ones.
+        <p className="font-mono my-8 text-[var(--color-light)] max-md:text-center max-md:my-6">
+          My name is Koffison Voumadi, a Software Engineer with over 2 years of
+          hands-on experience in mobile and web development, and specialized
+          knowledge in full stack development and cybersecurity. With my agile
+          mindset and collaborative skills, I'm eager to contribute towards the
+          implementation of organizational strategies and growth. I have a
+          bachelor's of science in computer science from John Jay College and
+          possess a professional certificate in agile IT project management
+          (LinkedIn Learning). During my free time, I freelance in graphic
+          design and video editing, enjoy gaming and spending time with my loved
+          ones.
         </p>
       </div>
     </section>
   );
 };
 
-export default about;
+export default About;
