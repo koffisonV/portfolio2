@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.eacacb52.css",
-    "main.js": "/portfolio/static/js/main.18dac4eb.js",
+    "main.js": "/portfolio/static/js/main.ae401bbe.js",
     "static/media/rickandmorty.gif": "/portfolio/static/media/rickandmorty.398a285af06fb6c30383.gif",
     "static/media/me.jpg": "/portfolio/static/media/me.9f0f409e43b8973e7ccd.jpg",
     "static/media/openvpn.jpg": "/portfolio/static/media/openvpn.90cbf48a95e05d280c8e.jpg",
-    "static/media/cv.pdf": "/portfolio/static/media/cv.314adb09fd6de5e6c105.pdf",
+    "static/media/cv.pdf": "/portfolio/static/media/cv.50494ae95f157bae6fcc.pdf",
     "static/media/img7.png": "/portfolio/static/media/img7.d003a68b55e755b44739.png",
     "static/media/img9.png": "/portfolio/static/media/img9.61a4acdd1311338c1baf.png",
     "static/media/img2.png": "/portfolio/static/media/img2.bfd4d186a5dd69212401.png",
@@ -18,10 +18,10 @@
     "static/media/img8.png": "/portfolio/static/media/img8.f1c0c277b255922416dd.png",
     "index.html": "/portfolio/index.html",
     "main.eacacb52.css.map": "/portfolio/static/css/main.eacacb52.css.map",
-    "main.18dac4eb.js.map": "/portfolio/static/js/main.18dac4eb.js.map"
+    "main.ae401bbe.js.map": "/portfolio/static/js/main.ae401bbe.js.map"
   },
   "entrypoints": [
     "static/css/main.eacacb52.css",
-    "static/js/main.18dac4eb.js"
+    "static/js/main.ae401bbe.js"
   ]
 }
