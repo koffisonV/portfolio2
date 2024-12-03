@@ -116,7 +116,7 @@ const Experience = () => {
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={70}
         slidesPerView={1}
-        // navigation
+        navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
@@ -142,6 +142,7 @@ const Experience = () => {
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={70}
         slidesPerView={1}
+        navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
         onSwiper={(swiper) => console.log(swiper)}
