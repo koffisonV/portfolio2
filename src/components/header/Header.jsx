@@ -8,7 +8,7 @@ const Header = () => {
     <header id="home">
       <div className="text-center relative mt-10">
         <h5>Hello I'm</h5>
-        <h1>Koffison Voumadii</h1>
+        <h1>Koffison Voumadi</h1>
         <h5 className="text-gray-500">Software Engineer</h5>
 
         {/* CTA Section */}
