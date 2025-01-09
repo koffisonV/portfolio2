@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bfd49d64.css",
-    "main.js": "/portfolio/static/js/main.f027a299.js",
+    "main.js": "/portfolio/static/js/main.655f542d.js",
     "static/media/rickandmorty.gif": "/portfolio/static/media/rickandmorty.398a285af06fb6c30383.gif",
     "static/media/me.jpg": "/portfolio/static/media/me.9f0f409e43b8973e7ccd.jpg",
     "static/media/openvpn.jpg": "/portfolio/static/media/openvpn.90cbf48a95e05d280c8e.jpg",
@@ -18,10 +18,10 @@
     "static/media/img8.png": "/portfolio/static/media/img8.f1c0c277b255922416dd.png",
     "index.html": "/portfolio/index.html",
     "main.bfd49d64.css.map": "/portfolio/static/css/main.bfd49d64.css.map",
-    "main.f027a299.js.map": "/portfolio/static/js/main.f027a299.js.map"
+    "main.655f542d.js.map": "/portfolio/static/js/main.655f542d.js.map"
   },
   "entrypoints": [
     "static/css/main.bfd49d64.css",
-    "static/js/main.f027a299.js"
+    "static/js/main.655f542d.js"
   ]
 }
