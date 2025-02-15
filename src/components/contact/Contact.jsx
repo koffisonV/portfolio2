@@ -8,7 +8,7 @@ const Contact = () => {
     <section id="contact" className="px-4">
       <div className="text-center mb-8">
         <h5 className="text-sm text-gray-600 mb-2">Get In Touch</h5>
-        <h2 className="text-3xl font-bold">Contact Me</h2>
+        <h2 className=" text-3xl text-blue-600">Contact Me</h2>
       </div>
 
       <div className="max-w-6xl mx-auto grid lg:grid-cols-[30%_58%] gap-8 lg:gap-[12%] mb-24 p-4">

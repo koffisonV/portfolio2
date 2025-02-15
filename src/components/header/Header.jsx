@@ -9,7 +9,7 @@ const Header = () => {
       <div className="text-center relative mt-10">
         <h5>Hello I'm</h5>
         <h1>Koffison Voumadi</h1>
-        <h5 className="text-gray-500">Software Engineer</h5>
+        <h5 className="text-gray-500">Full Stack Software Engineer</h5>
 
         {/* CTA Section */}
         <div className="mt-10">
@@ -30,7 +30,7 @@ const Header = () => {
         {/* Scroll Down Link */}
         <a
           href="#contact"
-          className="absolute -right-3 sm:-right-0 bottom-32 transform rotate-90 font-light text-sm hover:text-gray-300 transition-colors duration-300"
+          className="absolute -right-3 sm:-right-0 bottom-32 transform rotate-90 font-light text-sm hover:text-black transition-colors duration-300"
         >
           Scroll Down
         </a>
