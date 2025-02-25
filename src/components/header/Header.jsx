@@ -1,5 +1,5 @@
 import React from "react";
-import CTA from "./cta";
+// import CTA from "./cta";
 import ME from "../../assets/me.jpg";
 import HeaderSocials from "./HeaderSocials";
 
@@ -13,7 +13,7 @@ const Header = () => {
 
         {/* CTA Section */}
         <div className="mt-10">
-          <CTA />
+          {/* <CTA /> */}
         </div>
 
         {/* Social Media Links */}
